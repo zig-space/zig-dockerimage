@@ -1,6 +1,6 @@
 FROM alpine AS download-zig 
 
-ARG ZIG_VERSION="0.15.0-dev.552+bc2f7c754"
+ARG ZIG_VERSION="0.15.0-dev.565+8e72a2528"
 ARG OPTIONS=-Doptimize=ReleaseSafe
 ARG ARCH="x86_64"
 
